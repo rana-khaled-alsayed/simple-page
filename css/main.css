@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lora', serif;
+}
+.hero{
+    height: auto;
+    width: 100%;
+    /* background-color: wheat; */
+   
+
+}
+.hero nav{
+    background-color: rgb(95, 179, 144);
+    overflow: auto;
+    
+}
+.hero nav ul{
+    list-style-type: none;
+}
+.hero nav ul li{
+    float: right;
+    padding: 20px;
+    margin-top: 15px;
+   
+}
+.hero nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px; 
+    transition: all 1s;
+
+}
+.hero nav ul li a:hover{
+    background-color: black;
+    padding: 15px;
+    color:wheat;
+    border-radius: 15px;
+
+  
+}
+.hero nav ul li img{
+    width: 60px;
+}
+.hero nav ul li.image{
+    float: left;
+    margin: 0px;
+    transition: all 1s;
+
+}
+.hero nav ul li.image:hover{
+    transform: rotatey(360deg);
+}
+
+.hero .p{
+    height: 100vh;
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+    display: flex
+    
+}
+ .hero .c{
+   width:50% ;
+   margin-left: 50px;
+ }
+ .hero .c img{
+    width: 100%;
+    height: 100%;
+    
+ }
+ 
+ .hero.ch{
+    margin:0;
+    padding: 0;
+    height: 100%;
+
+ }
+.hero .ch h1{
+    color: rgb(95, 179, 144);
+    margin:150px 100px 40px 60px;
+    padding: 20px;
+    transition: all 1s;
+    font-size: 70px;
+   
+}
+
+
+.hero .ch button{
+    padding: 15px 20px;
+    width: 200px;
+    border-radius: 15px;
+    margin: 0px 100px;
+    border: 1px aquamarine solid;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px black;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 23px;
+    transition: all 1s;
+}
+.hero .ch button:hover{
+    transform: scale(1.2,1.2);
+    background-color:rgb(95, 179, 144);
+    color: aliceblue;
+}
+/* end of the first section */
+.mid{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid; */
+    background-color: rgb(3, 3, 3);
+    overflow: auto;
+}
+.mid .balle{
+    width: 100%;
+    height: 75%;
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+
+}
+
+.mid .balle img{
+    height: 95%;
+    width: 30%;
+    margin-top: 30px;
+    border-radius: 15px;
+    transition: all 1s;
+
+}
+.mid .balle img:hover{
+    transform: scale(1.1,1.1);
+}
+.mid .h h1{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.mid .h h1:hover{
+    color: aquamarine;
+}
+/* end of the second section */
+footer{
+    height: 400px;
+    width:100%;
+    background:linear-gradient(black,rgba(100, 207, 171, 0.534));
+    overflow: auto;
+    
+}
+.f1 h1{
+ text-align: center;
+ font-size: 50px;
+ color: aliceblue;
+ margin-top: 80px;
+}
+.f1 h1:hover{
+color: black;
+}
+.f2 ul {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    list-style-type: none;
+}
+
+.f2 ul li{
+    padding-left: 30px;
+    transition: all 1s;
+}
+.f2 ul li :hover{
+    transform: scale(1.2,1.2);
+}
